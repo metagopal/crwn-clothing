@@ -2,7 +2,7 @@ import React from "react";
 import "./menu-item.styles.scss";
 import { useNavigate, useLocation } from "react-router-dom";
 
-import { withRouter } from "../../utils/utils";
+
 
 const MenuItem = (props) => {
   const navigation = useNavigate();
@@ -29,4 +29,4 @@ const MenuItem = (props) => {
   );
 };
 
-export default withRouter(MenuItem);
+export default MenuItem;
